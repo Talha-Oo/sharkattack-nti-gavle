@@ -1,0 +1,668 @@
+<!DOCTYPE html>
+
+<html lang="sv">
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SHARK ATTACK</title>
+
+  <link rel="stylesheet" href="shark.css">
+
+  <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+  <link rel="stylesheet" href="kretslopp.css">
+
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js" defer></script>
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js" defer></script>
+  <script src="shark.js" defer></script>
+  <script src="kretslopp.js" defer></script>
+
+</head>
+
+<body id="home">
+
+  <header>
+    <img src="Bilder/logo.png" alt="Shark Attack" class="logoImg">
+
+    <a href="#" class="logo">SHARK ATTACK</a>
+
+    <input type="checkbox" id="check">
+    <label for="check" class="icons">
+      <i class='bx bx-menu' id="menu-icon"></i>
+      <i class='bx bx-x' id="close-icon"></i>
+    </label>
+
+    <nav class="navbar" id="">
+      <a href="#home" style="--i:0">Home</a>
+      <a href="#Project" style="--i:1">Project</a>
+      <a href="#Uppbyggnad" style="--i:2">Uppbyggnad</a>
+      <a href="#Kretslopp" style="--i:3">Kretslopp</a>
+    </nav>
+
+  </header>
+
+
+  <div class="s-cont" style="margin-top: 0px;">
+
+    <div class="slide" style="background-image: url(Bilder/bild1.png);"></div>
+    <div class="slide" style="background-image: url(Bilder/bild2.png);"></div>
+    <div class="slide" style="background-image: url(Bilder/bild3.png);"></div>
+    <div class="slide" style="background-image: url(Bilder/bild4.png);"></div>
+
+  </div>
+
+  <div class="c-cont">
+    <div class="c"></div>
+    <div class="c"></div>
+    <div class="c"></div>
+    <div class="c"></div>
+  </div>
+
+  <section class="Robo">
+
+    <div class="full-div" style="margin-top: 90px;">
+
+      <div class="out-div" id="Project">
+        <h1>SHARK ATTACK - Projektet</h1>
+
+        <p>Föreställ dig att du går längs stranden av en sjö, flod eller hav. Men ytans lugn döljer
+          ett pressande problem, övergödning och en ansamling av skräp. Det är här vårt projekt börjar.
+          I dessa vattenmiljöer trivs inte bara en mängd växter och alger, utan de utvecklas också i
+          en rasande takt, vilket ger dig minimal tid att underhålla området. Det är mot denna bakgrund
+          som vårt projekt föddes, drivet av en passion för att återställa och bevara dessa naturliga
+          skönhets spotar. Vi strävar efter att inte bara bekämpa övergödning och skräp förorening
+          utan också att främja en hållbar ekologisk balans.
+        </p>
+
+      </div>
+
+      <div class="cont">
+        <div></div>
+        <div>
+          <button id="colapse">
+            <i class='bx bx-chevrons-down' id="down1"></i>
+          </button>
+
+        </div>
+        <div></div>
+      </div>
+
+      <div class="inner-div">
+
+        <div class="banner"></div>
+
+        <div class="wrapper">
+
+          <img src="Bilder/water.jpg" alt="Vatten">
+
+          <div class="text-box">
+            <h2>VATTENMILJÖN</h2>
+            <p>
+              Vattenmiljön, där olika arter lever och påverkas av gödsling, nedskräpning och andra faktorer,
+              lider av flera negativa konsekvenser. Att begränsa övergödningen är ett av de största miljömålen i
+              Sverige,
+              och det reflekterar en övergripande strävan mot ett mer hållbart samhälle och en cirkulär ekonomi. Om
+              vi utgår från att människan strävar efter att skydda och värdera de naturresurser vi har tillgång
+              till blir det tydligt att övergödning skapar obalans i vattnet.<br><br> Snabbväxande växter och djur i
+              övergödslade områden sjunker till botten när de dör och kräver syre för att bryta ner organiskt
+              material. Detta resulterar i en avsevärd brist på syre på botten, vilket påverkar det marina livet
+              i negativ riktning. För mycket näring, eller övergödning ,påverkar jordar, sjöar, vattendrag och
+              hav. Problemet finns över hela landet, men det är värst i södra Sverige. Där är nivåerna av kväve
+              ämnet nitrat i grundvattnet för höga och det kan vara dåligt för hälsan. Starka åtgärder har
+              hjälpt till att minska övergödningen i många sjöar och vattendrag, samt i vissa kustområden.
+              Men i havet, särskilt i Egentliga Östersjön, är övergödning fortfarande ett av de allvarligaste
+              miljöproblemen.
+            </p>
+          </div>
+        </div>
+
+        <div class="wrapper1">
+
+          <img src="Bilder/plankton.jpg" alt="Plankton">
+
+          <div class="text-box">
+            <h2>PLANKTON</h2>
+            <p>
+              Växter kallade plankton trivs extra bra i näringsrikt vatten och blir så många att vattnet blir grumligt.
+              Ljuset når inte lika långt ner som det brukar. Längs stränderna tar snabbväxande alger över och ibland
+              blir
+              det tjocka mattor av alger på ytan, vilket stoppar ljuset från att nå botten. Det gör att färre växter kan
+              leva där och vissa alger och växter inte överlever alls. <br><br>När plankton och alger dör, sjunker de
+              till
+              botten och blir mat för djur där. Men ibland finns det för lite syre i botten, särskilt på sommaren
+              när ytan är varm och solig. Då kan det bli syrebrist, och djur som behöver syre kan få det svårt. Vissa
+              djur klarar det bättre än andra, men känsliga arter flyr eller dör. Stora områden på botten av sjöar och
+              hav kan bli fattiga på liv eller helt döda. Det påverkar fiskarna också, eftersom de förlorar sin
+              matkälla.
+            </p>
+          </div>
+        </div>
+
+        <div class="wrapper">
+
+          <img src="Bilder/Fisk.png" alt="Robot">
+
+          <div class="text-box">
+            <h2>MIKROPLASTER</h2>
+            <p>
+
+              Under de senaste åren har plastavfall blivit en globalt betydande miljöutmaning.
+              Den primära vägen för mänsklig exponering är genom förtäring av mat och vatten som
+              är förorenade med mikroplaster. <br><br>
+              Fiskeriprodukter utgör en väsentlig källa till dessa
+              mikroplaster i den mänskliga kosten. När mikroplasterna intas når de mag-tarmkanalen
+              och kan absorberas, vilket resulterar i oxidativ stress, cytotoxicitet
+              och transport till andra vävnader. Dessutom kan mikroplaster frigöra
+              organiska och oorganiska kemikalier som finns i deras struktur eller
+              som tidigare absorberats från miljön, samt agera som bärare av mikroorganismer.
+              Tillsatser i mikroplaster, såsom polybrominerade difenyletrar (PBDE), bisfenol A (BPA),
+              nonylfenol (NP), oktylfenol (OP) och potentiellt giftiga element, kan vara skadliga för människor.
+              <br><br>
+              Trots detta är den tillgängliga datan för närvarande otillräcklig för att göra en tillförlitlig bedömning
+              av hälsorisker för människor. Ytterligare forskning om mikroplasters toxikokinetik och toxicitet hos
+              människor är nödvändig för att få en bättre förståelse av riskerna för vår hälsa.
+            </p>
+          </div>
+        </div>
+
+        <div class="wrapper1" style="margin-top: 0px;">
+
+          <img src="Bilder/alger.jpg" alt="Alger">
+
+          <div class="text-box">
+            <h2>ORSAKER TILL ÖVERGÖDNING</h2>
+            <p>
+              Övergödning i södra Sveriges grundvatten och vattendrag är ett växande problem, främst på grund
+              av höga nitrathalter. Cirka 80 procent av vattnet i sjöar och vattendrag kommer från grundvatten.
+              Ökad kvävegödsling, särskilt inom jordbruket, samt hantering av stallgödsel och avloppspåverkan,
+              är huvudorsakerna till höjda kvävenivåer. Förhöjda kloridhalter och bakterier kan indikera höga
+              nitrathalter, särskilt vid avloppspåverkan och från hushålls avfallsdeponier. <br><br>Övergödning i
+              sjöar och vattendrag, särskilt i södra Sverige, beror på ökad näringsläckage, främst från
+              jordbrukslandskap och tätbefolkade områden. Lokala faktorer som berggrund, mark innehåll
+              och organiskt material påverkar den naturliga fosfor tillförseln. Av den totala fosforbelastningen
+              står naturliga källor för cirka 70 procent, där jordbruks läckage utgör hälften av mänskligt tillskott.
+              Enskilda avlopp och avloppsreningsverk bidrar också, men i mindre omfattning. <br><br>I havet orsakas
+              övergödning
+              av ökad tillförsel av kväve och fosfor. Sverige belastade sina havsområden med cirka 46 000 ton kväve
+              och 1 340 ton fosfor år 2014. Jordbruket står för 51 procent av kväve och 35 procent av fosfor som
+              når haven via vattendrag. Utsläpp från jordbruket är särskilt intensiva i södra delarna av landet.
+              Atmosfäriska utsläpp från förbränning, särskilt från väg- och sjötransporter, är en annan
+              betydande källa till kväveutsläpp.
+            </p>
+          </div>
+        </div>
+
+
+
+        <div class="wrapper1">
+
+          <img src="Bilder/Robo1.jpg" alt="Robot">
+
+          <div class="text-box">
+            <h2>SHARK ATTACK</h2>
+            <p>
+              Denna robot är inspirerad av verkliga hot och strävar efter att göra vårt vatten renare och säkrare.
+              Det är en teknisk innovation som ger hopp och potentiellt kan revolutionera hur vi skyddar och bevarar
+              våra vattenmiljöer. <br><br> Kärnan i detta projekt är en strävan att använda vetenskap och teknik för att
+              skapa positiv förändring för våra vattendrag och deras olika invånare. <br><br> Syftet med projektet är
+              att effektivt ta bort övergödningen från vattnet samtidigt som det möjliggör insamling av skräp.
+              En robot, styrd med hjälp av en fjärrkontroll och utrustad med två huvudfunktioner - uppsamling och
+              skärning -
+              utgör kärnan i detta initiativ. Uppsamlingsgallret har en imponerande kapacitet på cirka 214 liter,
+              vilket gör det möjligt att effektivt rena vattnet från oönskade ämnen.
+            </p>
+          </div>
+        </div>
+
+        <div class="wrapper1">
+          <div class="text-box">
+            <p>
+              <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9819327/" target="_blank" class="links"><b>SOURCE:
+                </b>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9819327/</a> <br>
+              <a href="https://www.sverigesvattenmiljo.se/sa-mar-vara-vatten/2021/sammanfattningar/0/0/4"
+                target="_blank" class="links"><b>SOURCE:
+                </b>https://www.sverigesvattenmiljo.se/sa-mar-vara-vatten/2021/sammanfattningar/0/0/4</a>
+            </p>
+          </div>
+        </div>
+
+        <div class="cont">
+          <div></div>
+          <div>
+            <button id="rewind">
+              <i class='bx bx-chevrons-up' id="up1"></i>
+            </button>
+
+          </div>
+          <div></div>
+        </div>
+
+      </div>
+
+
+    </div>
+
+  </section>
+
+  <section id="about" class="about">
+    <h1 class="heading"><span>Shark</span> attack </h1>
+    <div class="row">
+
+      <div class="image">
+        <img src="Bilder/Robo2.jpg" alt="">
+      </div>
+
+      <div class="content">
+        <h3>Varför?</h3>
+        <p id="ad">Genom teknologisk innovation strävar vi efter att skapa positiv förändring
+          och revolutionera hur vi bevarar våra vattenmiljöer. Shark Attack är ett
+          hoppfullt svar på den akuta frågan om att bevara hälsan hos sjöar, hav
+          och andra vattenresurser, och vi tror att vetenskap och teknik kan vara
+          kraftfulla verktyg för att tjäna naturen och dess invånare.</p>
+      </div>
+
+    </div>
+  </section>
+
+  <div class="main-text">
+    <h2><span style="color:#8c38ff">SHARK ATTACK</span></h2>
+  </div>
+  <h1 class="heading2"> <span id="Uppbyggnad">Upp</span>byggnad</h1>
+
+  <div class="verktyg">
+    <h2 class="heading3 verktyg1">VERKTYG</h2>
+    <div class="div">
+      <div class="cont-verk">
+        <div class="slider-wrapper">
+          <button id="prev-slide" class="slide-button material-symbols-rounded">
+            <i class='bx bx-chevrons-left'></i>
+          </button>
+          <div class="img-list">
+
+            <div class="main-cont">
+              <img src="Verktyg/hammare.png" alt="hammare" class="img-item">
+
+              <div class="overlay">
+                <h1>HAMMARE</h1>
+              </div>
+            </div>
+
+            <div class="main-cont">
+              <img src="Verktyg/Skruvdragare.png" alt="Skruvdragare" class="img-item">
+
+              <div class="overlay">
+                <h1>SKRUVDRAGARE</h1>
+              </div>
+            </div>
+
+            <div class="main-cont">
+              <img src="Verktyg/borrmaskin.png" alt="Borrmaskin" class="img-item">
+
+              <div class="overlay">
+                <h1>BORRMASKIN</h1>
+              </div>
+            </div>
+
+            <div class="main-cont">
+              <img src="Verktyg/tång.png" alt="Tång" class="img-item">
+
+              <div class="overlay">
+                <h1>TÅNG</h1>
+              </div>
+            </div>
+
+            <div class="main-cont">
+              <img src="Verktyg/Skiftnyckel.png" alt="Skiftnyckel" class="img-item">
+
+              <div class="overlay">
+                <h1>SKIFTNYCKEL</h1>
+              </div>
+            </div>
+
+            <div class="main-cont">
+              <img src="Verktyg/Vinkelslip.png" alt="Vinkelslip" class="img-item">
+
+              <div class="overlay">
+                <h1>VINKELSLIP</h1>
+              </div>
+            </div>
+
+            <div class="main-cont">
+              <img src="Verktyg/Sticksåg.png" alt="Sticksåg" class="img-item">
+
+              <div class="overlay">
+                <h1>STICKSÅG</h1>
+              </div>
+            </div>
+
+            <div class="main-cont">
+              <img src="Verktyg/Bandsåg.png" alt="Bandsåg" class="img-item">
+
+              <div class="overlay">
+                <h1>BANDSÅG</h1>
+              </div>
+            </div>
+
+            <div class="main-cont">
+              <img src="Verktyg/Mer.png" alt="Mer" class="img-item">
+
+              <div class="overlay">
+                <a href="Verktyg.html">
+                  <h1 class="Mer">MER!!!</h1>
+                </a>
+              </div>
+            </div>
+
+          </div>
+          <button id="next-slide" class="slide-button material-symbols-rounded">
+            <i class='bx bx-chevrons-right'></i>
+          </button>
+        </div>
+        <div class="slider-scrollbar">
+          <div class="scrollbar-track">
+            <div class="scrollbar-thumb">
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="main-text" style="margin-top: 70px;">
+    <h2><span style="color:#8c38ff">SHARK ATTACK</span></h2>
+  </div>
+  <h1 class="heading2"> <span>Upp</span>byggnad</h1>
+
+  <div class="Material">
+    <h1 class="heading3 verktyg1" style="padding-top: 40px;">MATERIAL</h1>
+    <section>
+      <div class="cont1">
+
+
+        <div class="container">
+          <div class="card__container">
+            <article class="card__article">
+              <img src="Material/Material1.png" alt="image" class="card__img img1">
+
+              <div class="card__data">
+                <h2 class="card__title">Trallskruv, Plywood och Färg</h2>
+                <span class="card__description">Grundläggande konstruktionsmaterial</span>
+                <br>
+                <a href="material.html" class="card__button">LÄS MER!!!</a>
+              </div>
+            </article>
+
+            <article class="card__article">
+              <img src="Material/Material2.png" alt="image" class="card__img img1">
+
+              <div class="card__data">
+                <h2 class="card__title">Bågsåg och Putsnät</h2>
+                <span class="card__description">Verktyg och material för att konstruera och täcka robotens ram</span>
+                <br>
+                <a href="material.html" class="card__button">LÄS MER!!!</a>
+              </div>
+            </article>
+
+            <article class="card__article">
+              <img src="Material/Material3.png" alt="image" class="card__img img1">
+
+              <div class="card__data">
+                <h2 class="card__title">Armeringsnät och Lastpallar</h2>
+                <span class="card__description">
+                  Stödstrukturer och logistiska material för transport eller förvaring av roboten
+                </span>
+                <br>
+                <a href="material.html" class="card__button">LÄS MER!!!</a>
+              </div>
+            </article>
+
+            <article class="card__article">
+              <img src="Material/Material4.png" alt="image" class="card__img img1">
+
+              <div class="card__data">
+                <h2 class="card__title">Frigolit/Cellplastskivor och Kupefläktar</h2>
+                <span class="card__description">Isolering och ventilationssystem för roboten</span>
+                <br>
+                <a href="material.html" class="card__button">LÄS MER!!!</a>
+
+              </div>
+            </article>
+
+            <article class="card__article">
+              <img src="Material/Material5.png" alt="image" class="card__img img1">
+
+              <div class="card__data">
+                <h2 class="card__title">Armeringsjärn, Sändare och Mottagare Kretskort, samt Kabel</h2>
+                <span class="card__description">Elektroniska och strukturella delar för robotens funktion och
+                  styrning</span>
+                <br>
+                <a href="material.html" class="card__button">LÄS MER!!!</a>
+              </div>
+            </article>
+
+            <article class="card__article">
+              <img src="Material/Material6.png" alt="image" class="card__img img1">
+
+              <div class="card__data">
+                <h2 class="card__title">Krokar, Kaminfläktar och Bultar/Mutter</h2>
+                <span class="card__description">Fäst- och monteringsmetoder samt ventilationssystem för roboten</span>
+                <br>
+                <a href="material.html" class="card__button">LÄS MER!!!</a>
+              </div>
+            </article>
+
+            <article class="card__article">
+              <img src="Material/Material7.png" alt="image" class="card__img img1">
+
+              <div class="card__data">
+                <h2 class="card__title">Gångjärn och Hålplatta</h2>
+                <span class="card__description">Återanvändningsbara delar och monteringssystem för roboten</span>
+                <br>
+                <a href="material.html" class="card__button">LÄS MER!!!</a>
+              </div>
+            </article>
+
+            <article class="card__article">
+              <img src="Material/Material8.png" alt="image" class="card__img img1">
+
+              <div class="card__data">
+                <h2 class="card__title">Bilbatteri (12 volt), Eltejp och Kabelklämmor</h2>
+                <span class="card__description">Energikälla, kabelhantering och reparationssystem för roboten</span>
+                <br>
+                <a href="material.html" class="card__button">LÄS MER!!!</a>
+              </div>
+            </article>
+
+            <article class="card__article">
+              <img src="Material/Mer.png" alt="image" class="card__img img1">
+
+              <div class="card__data">
+                <h2 class="card__title">MER</h2>
+                <br>
+                <a href="material.html" class="card__button">LÄS MER!!!</a>
+              </div>
+            </article>
+
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <section></section>
+  </div>
+
+  <section>
+
+    <section class="video-section">
+      <div class="video-container">
+        <video class="video" autoplay muted loop>
+          <source src="Bilder/20231023_165346.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+      </div>
+      <div class="content">
+
+        <div class="main-text">
+          <h2><span style="color:#8c38ff">SHARK ATTACK</span></h2>
+        </div>
+        <h1 class="heading2"> <span>RESULTAT</h1>
+
+        <div class="img-text-container">
+          <img src="Bilder/res.png" alt="Image">
+
+          <div class="text" style="margin-top: 50px;">
+            <p>Bilden och videon är tagen under projektets gång och eftersom vädret har
+              varit minusgrader som leder till is samt mycket snö, finns endast detta resultat
+              för nuläget. Det ska göras fler försök och videor när vädret blir lite bättre. </p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+  </section>
+
+
+  <div class="main-text" style="margin-top: 150px;">
+    <h2><span style="color:#8c38ff">SHARK ATTACK</span></h2>
+  </div>
+  <h1 class="heading2" style="margin-bottom: 60px;"> <span id="Kretslopp">KRETS</span>LOPP</h1>
+
+  <section class="krets">
+
+    <div class="container1">
+      <img src="Bilder/kretslopp.png" alt="Kretslopp">
+
+      <div class="all-tooltips">
+        <div class="tooltip tooltip-1">
+          <div class="pin"></div>
+          <div class="tooltip-content">
+            <div class="arrow"></div>
+            <div class="content">
+              <h1>ÖVERGÖDNING</h1>
+              <p>
+                Övergödning och dess påföljder, inklusive algblomning och syrebrist, allvarliga
+                hot mot vattenmiljöer och dricksvattenförsörjningen. Denna försämring av vattenkvaliteten
+                och dess negativa inverkan på ekosystemen är en angelägen fråga som kräver åtgärder för
+                att minska näringsläckaget och skydda våra vattenresurser och biologiska mångfald.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="tooltip tooltip-2">
+          <div class="pin"></div>
+          <div class="tooltip-content">
+            <div class="arrow"></div>
+            <div class="content">
+              <h1>ÖVERGÖDNING OCH SKRÄPFÖRORENINGAR</h1>
+              <p>
+                Med hjälp av Shark Attack skapas det ett nytt hjälpmedel att bekämpa övergödningen
+                och negativa effekter på vattenkvaliteten. Detta görs genom att roboten navigeras
+                av en människa till att röja och samla in alger samt annat vardagligt skräp som
+                förstör sjöar och hav. <br><br>
+                Med hjälp av denna robotkonstruktion förbättras inte
+                endast övergödningen och vattenkvaliteten, något som även påverkas är att
+                mikroplaster som fiskarna äter försvinner. Detta beror på att det vardagliga
+                skräp som hamnar i sjöar och hav har hunnit samlats in innan det har
+                hunnit brytas ner till mikroplast.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="tooltip tooltip-3">
+          <div class="pin"></div>
+          <div class="tooltip-content">
+            <div class="arrow"></div>
+            <div class="content">
+              <h1>ALGER SOM RESURS</h1>
+              <p>
+                Algerna som samlats in kan återanvändas eftersom de innehåller massa olika ämnen som är
+                viktiga som dessutom kan användas inom jordbruket, där de kan användas för att ersätta
+                konventionella gödselmedel och hjälpa till att främja mer hållbara jordbruksmetoder.
+                Denna metod ersätter användningen av gödsel som inte är framtaget på ett hållbart
+                sätt, som även övergöder sjöar som exempelvis Östersjön. Detta gör att det uppstår
+                en slags problematik eftersom att Östersjön är sötvatten och vi har inte mycket
+                sötvatten som leder till att vi bör ta hand om det lilla vi har. <br><br>
+                Med hjälp av
+                denna robot konstruktion skapas det ett hållbart sätt att bekämpa massa olika
+                faktorer samt ta nytta av överflödet som i detta fall är alger. Denna konstruktion
+                bidrar med att skapa ett hållbart kretslopp samt vara ett stort hjälpmedel inom
+                globala målen nummer 2: Ingen hungrig och 14: Hav och marina resurser.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="tooltip tooltip-4">
+          <div class="pin"></div>
+          <div class="tooltip-content">
+            <div class="arrow"></div>
+            <div class="content">
+              <h1>SHARK ATTACK</h1>
+              <p>
+                Shark Attack är utrustad med två huvudsakliga funktioner;<br><br>
+                Röj funktion för övergödande växter: Roboten är konstruerad med en röj funktion som används för att
+                skära och ta bort övergödande växter. <br><br>
+                Samlingsfunktion för vardagligt skräp och alger: Roboten har en samlings funktion med
+                kapaciteten ca 214 liter,
+                som möjliggör insamling av vardagligt skräp och alger som finns i vattnet. Detta inkluderar allt
+                från skräp och plastavfall som kan produceras av människor till överflödiga alger
+                som är rika på näringsämnen. <br><br>
+                Roboten styrs med två kylfläktmotorer från en Volvo s70 som är därmed kopplade till en
+                radiostyrd kontroll, vilket gör det möjligt att navigera i sjön och målinriktat utföra
+                sina röj- och samlings uppgifter.
+
+              </p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+  </section>
+  <section></section>
+  <section></section>
+
+
+
+  <footer>
+
+    <div class="waves">
+      <div class="wave" id="wave1"></div>
+      <div class="wave" id="wave2"></div>
+      <div class="wave" id="wave3"></div>
+      <div class="wave" id="wave4"></div>
+    </div>
+
+    <a href="#home"><img src="Bilder/logo.png" class="logo"></a>
+
+    <ul class="menu">
+      <li><a href="#home" style="--i:0">Home</a></li>
+      <li><a href="#Project" style="--i:1">Project</a></li>
+      <li><a href="#Uppbyggnad" style="--i:2">Uppbyggnad</a></li>
+      <li><a href="#Kretslopp" style="--i:3">Kretslopp</a></li>
+    </ul>
+
+    <p> &copy;COPYRIGHT || SAAD JAMIL, LIAN DIM, TALHA BAJWA || </p>
+  </footer>
+
+
+
+
+
+
+</body>
+
+</html>
